@@ -1,0 +1,74 @@
+{
+  "battleCards": [
+    {
+      "id": "02",
+      "name": "Донателло, злобная ухмылка",
+      "type": "HERO",
+      "imagePath": "/images/cards/battle/2.jpg",
+      "characteristics": {
+        "strength": 9250,
+        "agility": 9250,
+        "mastery": 9000,
+        "cunning": 9600
+      }
+    },
+    {
+      "id": "03",
+      "name": "Сплинтер",
+      "type": "HERO",
+      "imagePath": "/images/cards/battle/3.jpg",
+      "characteristics": {
+        "strength": 8000,
+        "agility": 9000,
+        "mastery": 7000,
+        "cunning": 9500
+      }
+    },
+    {
+      "id": "04",
+      "name": "Сила черепашек",
+      "type": "HERO",
+      "imagePath": "/images/cards/battle/4.jpg",
+      "characteristics": {
+        "strength": 9999,
+        "agility": 9750,
+        "mastery": 9999,
+        "cunning": 9750
+      }
+    },
+    {
+      "id": "05",
+      "name": "Леонардо",
+      "type": "HERO",
+      "imagePath": "/images/cards/battle/5.jpg",
+      "characteristics": {
+        "strength": 9500,
+        "agility": 9200,
+        "mastery": 9250,
+        "cunning": 8250
+      }
+    },
+    {
+      "id": "villain_001",
+      "name": "Шреддер",
+      "type": "VILLAIN",
+      "imagePath": "/images/cards/battle/shredder.png",
+      "characteristics": {
+        "strength": 9800,
+        "agility": 8200,
+        "mastery": 9500,
+        "cunning": 8800
+      }
+    }
+  ],
+  "bonusCards": [
+    {
+      "id": "01",
+      "name": "Посох бо Донателло",
+      "type": "ADD_MASTERY",
+      "imagePath": "/images/cards/bonus/1.jpg",
+      "value": 400,
+      "targetCharacteristic": "mastery"
+    }
+  ]
+}

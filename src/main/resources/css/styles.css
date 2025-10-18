@@ -1,0 +1,43 @@
+.root {
+    -fx-font-family: "Arial";
+}
+
+.button {
+    -fx-background-color: linear-gradient(#ff9900, #ff6600);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#ffaa00, #ff7700);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(#ff8800, #ff5500);
+}
+
+.card-view {
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 5, 0, 2, 2);
+}
+
+.card-view:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 3, 3);
+}
+
+.player-area {
+    -fx-background-color: rgba(255,255,255,0.1);
+    -fx-background-radius: 15;
+    -fx-border-color: #gold;
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+}
+
+.game-board {
+    -fx-background-image: url("/images/background.jpg");
+    -fx-background-size: cover;
+}
